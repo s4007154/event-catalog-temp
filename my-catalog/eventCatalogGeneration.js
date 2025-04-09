@@ -21,7 +21,7 @@ await writeServiceToDomain({
      {id: "ExampleDomain"},
      {override: true}) 
 
-await addServiceToDomain("ExampleDomain", {service: "ExampleService", version: '0.0.1}'});
+//await addServiceToDomain("ExampleDomain", {service: "ExampleService", version: '0.0.1}'});
 
 await writeEventToService({
     id: "ExampleEvent",
@@ -32,4 +32,4 @@ await writeEventToService({
     markdown: '',},
     {id: "ExampleService"})
 
-await addEventToService("ExampleService", "receives", {event: "ExampleEvent", version: '0.0.1'});
+//await addEventToService("ExampleService", "receives", {event: "ExampleEvent", version: '0.0.1'});
